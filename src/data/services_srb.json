@@ -1,0 +1,93 @@
+[{
+  "fields": {
+    "title": "Papir",
+    "header": "Usluge",
+    "categories": [
+      { 
+        "title": "Kopiranje",
+        "text": "Kopiranje A4 I A3 na 80gr/m2 I 200gr/m2  papiru"
+      },
+      { 
+        "title": "Plastificiranje",
+        "text": "Plastificiranje u A4 i A3 veličinama"
+      },
+      { 
+        "title": "Štampanje",
+        "text": "Štampanje A4 i A3 na 80gr/m2 I 200gr/m2  papiru"
+      },
+      {
+
+        "title": "Isčitavanje",
+        "text": "Očitavanje lične karte, saobraćajne dozvole, zdravstvene knjižice"
+      },
+      { 
+        "title": "Koričenje",
+        "text": "Spiralno koričenje vaših seminarskih,diplomskih, matursih i drugih radova"
+      }
+    ]
+  }
+},
+ {
+  "fields": {
+    "header": "Usluge",
+    "title": "Izrada fotografija",
+    "categories": [
+      {
+        "title": "Fotografije",
+        "text": "Formati: 9×13, 10×15, 13×18, 13×19, 15×21, 20×30, 30×40"
+      },
+      {
+        "title": "Foto book",
+        "text": "Izrada book-a (knjige sa Vašim odabranim slikama) dimezija od 10×15 do 30×40, od 10 do 40 stranica"
+      },
+      {
+        "title": "Fotografije za dokumenta",
+        "text": "Fotografije za vozačku dozvolu, vizu, sanitarnu knjižicu i sva ostala dokumenta u roku od 5 minuta"
+      }
+    ]
+  }
+}, 
+ {
+  "fields": {
+    "header": "Usluge",
+    "title": "Pokloni",
+    "categories": [
+        {
+          "title": "Jastuk",
+          "text": ""
+        },
+        {
+          "title": "Puzle",
+          "text": ""
+        },
+        {
+          "title": "Foto šolja",
+          "text": ""
+        },
+        {
+          "title": "Magična šolja",
+          "text": ""
+        },
+        {
+          "title": "Piši briši šolja",
+          "text": ""
+        },
+        {
+          "title": "Magične kugle",
+          "text": ""
+        },
+        {
+          "title": "Podmetači za miš",
+          "text": ""
+        },
+        {
+          "title": "Drveni privesci",
+          "text": ""
+        },
+        {
+          "title": "Plastični privesci",
+          "text": ""
+        }
+    ]
+  }
+}]

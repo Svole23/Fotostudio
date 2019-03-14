@@ -1,0 +1,93 @@
+[{
+  "fields": {
+    "title": "Paper",
+    "header": "Services",
+    "categories": [
+      { 
+        "title": "Copy",
+        "text": "A4 I A3 na 80gr/m2 I 200gr/m2 paper"
+      },
+      { 
+        "title": "Plastification",
+        "text": "Plastification in A4 i A3 sizes"
+      },
+      { 
+        "title": "Printing",
+        "text": "Printing A4 i A3 on 80gr/m2 I 200gr/m2 paper"
+      },
+      {
+
+        "title": "Documents",
+        "text": "Reading lične karte, saobraćajne dozvole, zdravstvene knjižice"
+      },
+      { 
+        "title": "Book covers",
+        "text": "Spiral hard covers of your works and papers"
+      }
+    ]
+  }
+},
+ {
+  "fields": {
+    "header": "Services",
+    "title": "Photograph making",
+    "categories": [
+      {
+        "title": "Photographs",
+        "text": "Formats: 9×13, 10×15, 13×18, 13×19, 15×21, 20×30, 30×40"
+      },
+      {
+        "title": "Foto book",
+        "text": "Making of photo book (with selected pictures) dimensions from 10×15 to 30×40, from 10 to 40 pages"
+      },
+      {
+        "title": "Photos for documents",
+        "text": "Photos for drivers licence, visa, and other documents are made in a minute"
+      }
+    ]
+  }
+}, 
+ {
+  "fields": {
+    "header": "Services",
+    "title": "Gifts",
+    "categories": [
+        {
+          "title": "Pillow",
+          "text": ""
+        },
+        {
+          "title": "Puzzle",
+          "text": ""
+        },
+        {
+          "title": "Photo cup",
+          "text": ""
+        },
+        {
+          "title": "Magic cup",
+          "text": ""
+        },
+        {
+          "title": "Write-on cup",
+          "text": ""
+        },
+        {
+          "title": "Magic crystal ball",
+          "text": ""
+        },
+        {
+          "title": "Mouse pads",
+          "text": ""
+        },
+        {
+          "title": "Wooden pendant",
+          "text": ""
+        },
+        {
+          "title": "Plastic pendant",
+          "text": ""
+        }
+    ]
+  }
+}]
