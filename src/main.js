@@ -14,7 +14,9 @@ import PagesSrb from '@/data/pages_srb.json'
 import ServicesSrb from '@/data/services_srb.json'
 import PagesEn from '@/data/pages_en.json'
 import ServicesEn from '@/data/services_en.json'
+import VueLoadImage from 'vue-load-image'
 
+Vue.use(VueLoadImage)
 Vue.use(Vuex)
 Vue.use(VeeValidate)
 Vue.use(checkView)
@@ -52,7 +54,9 @@ const messages = {
       title: 'Naše usluge'
     },
     page: {
-      link: 'Početna'
+      link: 'Početna',
+      loader: 'Slika se učitava...',
+      error: 'Postoji problem sa ovom slikom...'
     },
     photographer: {
       sidetext: 'Zasto izabrati dobrog fotografa?',
@@ -86,7 +90,9 @@ const messages = {
       title: 'Our services'
     },
     page: {
-      link: 'Home'
+      link: 'Home',
+      loader: 'Image is loading...',
+      error: 'There was an error with this image...'
     }
   }
 }

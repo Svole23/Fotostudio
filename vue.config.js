@@ -7,6 +7,8 @@ function resolve (dir) {
 }
 
 module.exports = {
+  baseUrl: '/',
+  outputDir: 'dist',
   configureWebpack: {
     resolve: {
       extensions: ['.js'],

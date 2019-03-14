@@ -5,20 +5,24 @@
 			<span class="page-header__path"><router-link class="router-link" to="/">{{ $t("page.link") }}</router-link> / {{page.slug}}</span>
 		</div>
 		<div class="page-content">
-			<div class="image-container" 
-			v-for="(image,index) in page.fields.page_images" >
-			<img class="page-image" 
-			:src="getImageSrc(image.title)">
+			<div class="image-container" v-for="(image,index) in page.fields.page_images" >
+			<vue-load-image>
+				<img slot="image" class="page-image" :src="getImageSrc(image.title)">
+      			<div slot="preloader">{{ $t("page.loader") }}</div>
+      			<div slot="error">{{ $t("page.error") }}</div>
+    		</vue-load-image>
 		</div>
 	</div>
 </section>
 </template>
 <script>
 	import PageSection from './PageSection.vue'
+	import VueLoadImage from 'vue-load-image'
 	export default {
 		name:'Page',
 		components: {
-			PageSection
+			PageSection,
+			VueLoadImage
 		},
 		computed: {
 			page () {
@@ -134,5 +138,13 @@
 		object-fit: cover;
 		object-position: center center;
 	}
+}
+
+.preloader {
+	color: white;
+}
+
+.error {
+	color: white;
 }
 </style>

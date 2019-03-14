@@ -69,9 +69,8 @@
       background: black;
       
       .section-sidebar__text {
-          display:block;
+          display:none;
           white-space: nowrap;
-          display: inline-block;
           color: #fff;
           transform: translateX(-100%) rotate(270deg);
           transform-origin: 100% 50%;

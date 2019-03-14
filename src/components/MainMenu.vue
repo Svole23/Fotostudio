@@ -292,7 +292,7 @@ class="main-container">
     .locale-changer {
       position: absolute;
       top: $width-unit / 3;
-      left: $width-unit * 2;
+      left: $width-unit * 1.5;
       right: auto;
 
       @include media-breakpoint-up(md) {

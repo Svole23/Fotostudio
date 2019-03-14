@@ -13,7 +13,7 @@
         </div>
         <div class="contact_item">
           <p class="item-title">Email:</p>
-          <p class="item-text">fotoexpressbg@gmail.com</p>
+          <a href="mailto:fotoexpressbg@gmail.com" class="item-text">fotoexpressbg@gmail.com</a>
         </div>
       </div>
       <div class="contact-container">
@@ -25,7 +25,7 @@
         </div>
         <div class="contact_item">
           <p class="item-title">Email:</p>
-          <p class="item-text">info@fotostudio.co.rs</p>
+          <a href="mailto:info@fotostudio.co.rs" class="item-text">info@fotostudio.co.rs</a>
         </div>
       </div>
       </div>
@@ -169,6 +169,9 @@
 
   .item-text {
     margin: 0;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
   }
 }
 

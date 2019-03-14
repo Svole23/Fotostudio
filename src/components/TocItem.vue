@@ -65,7 +65,7 @@
 
 	      this.$timeline = new TimelineMax({
 	        paused: true,
-	        delay: 0.7 * this.index
+	        //delay: 0.7 * this.index
 	      })
 
 				let els = [
