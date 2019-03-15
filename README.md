@@ -1,4 +1,4 @@
-# radiance-vue
+# fotostudio express
 
 ## Project setup
 ```
